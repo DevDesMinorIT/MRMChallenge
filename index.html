@@ -1,80 +1,102 @@
-<!-- Accordion for MRM all code written by Steven Craig Moss -->
-
 <!-DOCTYPE html>
-  <html>
+<html>
 
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>One Accord: Submission by Steven Craig Moss</title>
-    <link rel="stylesheet" href="css.main">
-    <!-- Google font CDN Playfair Display & Source Sans Pro -->
-    <!-- FONT AWESOME CDN here get URL Twitter/LinkedIn Circle icon -->
-  </head>
+     <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta http-http-equiv="X-UA-Compatible" content="ie=edge" />
+          <title>One Accord: Submission by Steven Craig Moss</title>
+          <link rel="stylesheet" href="css.main" />
+          <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet"/>
+         <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet"/>
+     </head>
 
-  <body>
-    <div class="container">
-      <header>
-        <nav class="contact-navigation">
-          <a href="#">Home</a>
-          <!-- cloudhost resume for download functionality -->
-          <a href="#">Resume</a>
-          <a href="https://stevencraigmoss.com">Web Portfolio</a>
-          <!-- SOCIAL MEDIA LINKS -->
-          <a href="https://linkedin.com/in/stevencraigmoss">LinkedIn</a>
-          <a href="https://twitter.com/flossymossy">Twitter</a>
-        </nav>
-        <!-- Accordion abbreviated acc except where the accordion begins in
-        the ul element -->
-        <main clas="acc-container">
-          <ul class="accordion">
-            <!-- Should be some sort of container for the content? hmmm -->
-            <!-- ACC ONE -->
-            <li class="acc">
-              <button class="acc-expand"></button>
-              <div class="acc-heading-content">
-                <h2>Fun Facts About Steven:</h2>
-              </div>
-              <p>
-                This is the part where I wow you with little factoids about
-                myself. Balacing humility and subtle name-dropping mixed-in
-                with a cutting edge technology stack should do the trick.
-                <br />
-                <!-- another bulleted or icon focused section if time allows -->
-              </p>
-            </li>
-            <!-- ACC TWO -->
-            <li>
-              <h2>Soft-skills aka Moxie!</h2>
-              <p>
-                Right now this is just a placeholder for better copy of the witty
-                variety.
-            </li>
-            <!-- ACC THREE: The Final Frontier -->
-            <li>
-              <h2>The Deets: Coding Breakdown/Use Cases</h2>
-              <p>
-                Talk about the toggle functionality
-                Take them through the Event from eventListener to toggle to
-                and the change of state that happens and doesn't happeen
+     <body>
+          <div class="container">
 
-            </li>
-          </ul>
+               <header>
+                    <nav class="contact-navigation">
+                         <a href="index.html">Home</a>
+                         <a href="https://www.evernote.com/l/AdYw-JKRPmNKuZMLzMAdIth0Gxm2lG9ycME">Resume</a>
+                         <a href="https://stevencraigmoss.com">Web Portfolio</a>
+                         <a href="https://linkedin.com/in/stevencraigmoss">LinkedIn</a>
+                         <a href="https://twitter.com/flossymossy">Twitter</a>
+                    </nav>
 
-        </main>
-      </header>
+                    <!-- Accordion abbreviated acc except where the accordion begins in the ul element -->
+                    <main>
+                         <ul class="accordion">
+                              <!-- ACC ONE -->
+                              <li class="acc">
+                                   <!-- ACC TAB -->
+                                   <button class="acc-control">
+                                        <h2>
+                                             Fun Facts About Steven
+                                        </h2>
+                                   </button>
+                                   <!-- ACC PANEL-->
+                                   <div class="acc-panel">
+                                        <p class="panel-content">
+                                             This is the part where I wow you with little factoids
+                                             about myself. Balacing humility and subtle
+                                             name-dropping mixed-in with a cutting edge technology
+                                             stack bantar should do the trick.
+                                             <br />
+                                             <h3>Facts:</h3>
+                                             <ul class="facts">
+                                                 <li>Originally had two firsts names and no middle name.</li>
+                                                 <li>Have an Internet Movie Database writing credit (Hollywood official)</li>
+                                                 <li>Wanted to be a backup dancer for Janet Jackson until about 6 years ago</li>
+                                                 <li>When I taught myself HTML I didn't have a computer... many nights in the library!</li>
+                                             </ul>
+                                        </p>
+                                   </div>
+                              </li>
 
-    </div>
+                              <!-- ACC TWO -->
+                              <li class="acc">
+                                  <!-- ACC TAB -->
+                                  <button class="acc-control">
+                                   <h2>
+                                        Soft-skills aka Moxie!
+                                   </h2>
+                                </button>
+                                <!-- ACC PANEL -->
+                                <div class="acc-panel"
+                                   <p class="panel-content">
+                                       I have grit you can't teach and moxie you can't buy in stores. I am just a fan of people being themselves and not at the expense of anyone else. My mom never had an enemy. I aspire to her legacy. And I laugh...  for caloric reasons... lol!
+                                   </p>
+                                </div>
+                              </li>
+
+                              <!-- ACC THREE -->
+                              <li class="acc">
+                                  <!-- ACC TAB -->
+                                  <button class="acc-control">
+                                   <h2>
+                                        The Deets: Coding Breakdown/Use Cases
+                                   </h2>
+                                </button>
+                                <!-- ACC PANEL -->
+                                <div class="acc-panel">
+                                   <p class=panel-content>
+                                        Talk about the toggle functionality Take them through the
+                                        Event from eventListener to toggle to and the change of
+                                        state that happens and doesn't happen
+                                   </p>
+                                </div>
+                              </li>
+                         </ul>
+                    </main>
+               </header>
+          </div>
+          <footer>
+               Copyright 2020 SCMoss 
+          </footer>
+
+          <script href="js/index.js"></script>
+     </body>
+</html>
 
 
-
-
-
-
-
-
-
-    <script href="js/index.js"></script>
-  </body>
-
-  </html>
+<!-- if heading does not render remove the h2 elements that you added for stylistic purposes -->

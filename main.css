@@ -1,1 +1,12 @@
-/* This is an empty file for one more hot second */
+/* CSS RESET */
+
+* {
+     box-sizing: border-box;
+}
+
+/* set the div display to none because its the container */
+.acc-panel {
+     display: none;
+}
+
+/* ADD CSS LAST ONLY ONE LINE REQUIRED TO PROPERLY FUNCTION */
