@@ -1,12 +1,51 @@
-/* CSS RESET */
-
-* {
-     box-sizing: border-box;
+body {
+     background-color: #5e5e60;
 }
-
-/* set the div display to none because its the container */
-.acc-panel {
-     display: none;
+.container {
+     width: 80%;
+     max-width: 600px;
+     margin: 50px auto;
 }
-
-/* ADD CSS LAST ONLY ONE LINE REQUIRED TO PROPERLY FUNCTION */
+nav {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+}
+a {
+     text-decoration: none;
+     color: #f0dfcb;
+     font-family: "Factoria";
+}
+a:hover {
+     color: #ff5501;
+}
+h1 {
+     font-family: "Factoria";
+     color: #f0dfcb;
+     text-align: center;
+}
+button.accordion {
+     width: 100%;
+     font-family: "Factoria";
+     background-color: #5e5e5e;
+     color: #f0dfcb;
+     border: none;
+     outline: none;
+     text-align: left;
+     padding: 15px 20px;
+     font-size: 18px;
+     cursor: pointer;
+     transition: background-color 0.2s linear;
+}
+button.accordion:hover {
+     background-color: #ff5501;
+     color: darkslategray;
+}
+.accordion-content {
+     padding: 0 20px;
+     border: 1px solid #f0dfcb;
+     max-height: 0;
+     overflow: hidden;
+     background-color: #f0dfcb;
+     font-family: "Source Sans Pro";
+}
